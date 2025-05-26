@@ -1,5 +1,8 @@
+print(f"First modules name: {__name__}")
+
+
 if __name__ == "__main__":
-    print("this is main")
+    print("This is module one and it is being run directly")
 
 
 # Example of unpacking with a list
