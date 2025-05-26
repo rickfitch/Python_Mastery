@@ -12,7 +12,7 @@ print(last)  # Output: 5
 print(type(b))
 
 # Example of unpacking with a tuple
-names: tuple[str] = ("Alice", "Bob", "Charlie", "David")
+names: tuple = ("Alice", "Bob", "Charlie", "David")
 a, b, c, last = names
 print(a)  # Output: Alice
 print(b)  # Output: Bob
