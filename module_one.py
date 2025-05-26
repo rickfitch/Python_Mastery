@@ -12,6 +12,7 @@ print(last)  # Output: 5
 print(type(b))
 
 # Example of unpacking with a tuple
+# doesn't need the type hint
 names: tuple = ("Alice", "Bob", "Charlie", "David")
 a, b, c, last = names
 print(a)  # Output: Alice
